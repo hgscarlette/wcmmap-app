@@ -5,14 +5,15 @@ st.set_page_config(layout="wide")
 
 # Customize the sidebar
 markdown = """
-A Streamlit map template
-<https://github.com/opengeos/streamlit-map-template>
+This multipage interactive web-app demonstrates multiple use cases for Location Analyses.
+
+Check out [GitHub repository](https://github.com/hgscarlette/wcmmap-app).
 """
 
 st.sidebar.title("About")
 st.sidebar.info(markdown)
-logo = "https://i.imgur.com/UbOXYAU.png"
-st.sidebar.image(logo)
+st.sidebar.image("https://hochiminhexport.com/wp-content/uploads/2024/04/logo-wincommerce-01.png")
+st.sidebar.image("https://i.imgur.com/UbOXYAU.png")
 
 # Customize page title
 st.title("Streamlit for Geospatial Applications")
