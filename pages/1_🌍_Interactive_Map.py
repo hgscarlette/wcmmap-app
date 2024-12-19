@@ -11,7 +11,7 @@ Check out [GitHub repository](https://github.com/hgscarlette/wcmmap-app).
 
 st.sidebar.title("About")
 st.sidebar.info(markdown)
-st.sidebar.image(r"logo\logo_WinCommerce.jpg")
+st.sidebar.image("https://github.com/hgscarlette/wcmmap-app/blob/main/logo/logo_WinCommerce.jpg")
 st.sidebar.image("https://i.imgur.com/UbOXYAU.png")
 
 
