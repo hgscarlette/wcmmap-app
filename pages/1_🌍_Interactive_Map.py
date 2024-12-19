@@ -1,6 +1,5 @@
 import streamlit as st
 import leafmap.foliumap as leafmap
-import folium
 import geopandas as gpd
 import pandas as pd
 
